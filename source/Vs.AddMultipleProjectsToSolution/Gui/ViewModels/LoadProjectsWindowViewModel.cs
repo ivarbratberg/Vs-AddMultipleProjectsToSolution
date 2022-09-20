@@ -138,18 +138,18 @@ namespace Vs.AddMultipleProjectsToSolution.Gui.ViewModels
             try
             {
                 LoadingStatus = "Searching for project files started.";
-                IsLoading = true;
-                var progressUpdater = new Progress<int>(numberOfFoundProjects =>
-                {
-                    LoadingStatus = $"Searching for project files. Already found {numberOfFoundProjects} projects.";
-                });
-                var projectFilesExtensions = GetProjectFilesExtensions();
                 var folder = FolderPath;
-                var files = await _FileEnumerationHelper.FindFilesAsync(
-                    folder, projectFilesExtensions, _LoadingCancelationTokenSource.Token,
-                    progressUpdater);
-
-                LoadingStatus = "Searching completed. Preparing data for display.";
+                IsLoading = true;
+                var files = System.IO.File.ReadAllLines(@"c:\temp\projectstoadd.txt");
+                //var progressUpdater = new Progress<int>(numberOfFoundProjects =>
+                //{
+                //    LoadingStatus = $"Searching for project files. Already found {numberOfFoundProjects} projects.";
+                //});
+                //var projectFilesExtensions = GetProjectFilesExtensions();
+                //var files = await _FileEnumerationHelper.FindFilesAsync(
+                //    folder, projectFilesExtensions, _LoadingCancelationTokenSource.Token,
+                //    progressUpdater);
+                        LoadingStatus = "Searching completed. Preparing data for display.";
                 var fsItemViewModels = await _ViewModelMapper
                     .MapFilesToViewModelAsync(folder, files, _LoadingCancelationTokenSource.Token);
                 if (_LoadingCancelationTokenSource.IsCancellationRequested)

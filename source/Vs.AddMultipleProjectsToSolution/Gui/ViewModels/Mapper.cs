@@ -45,7 +45,7 @@ namespace Vs.AddMultipleProjectsToSolution.Gui.ViewModels
             var parentPathParts =
                 rootDirectoryPath.Split(directorySeparatorChars, StringSplitOptions.RemoveEmptyEntries);
             FsDirectoryViewModel parentDirectory = null;
-            foreach (var filePath in files)
+            foreach (var filePath in files.Select( x=> x.Trim()))
             {
                 if (filePath == null)
                 {
