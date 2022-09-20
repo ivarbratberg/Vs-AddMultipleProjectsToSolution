@@ -18,6 +18,8 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		raufoss|Any CPU = raufoss|Any CPU
+		raufoss|x86 = raufoss|x86
 		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
@@ -25,6 +27,10 @@ Global
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.raufoss|Any CPU.ActiveCfg = raufoss|Any CPU
+		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.raufoss|Any CPU.Build.0 = raufoss|Any CPU
+		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.raufoss|x86.ActiveCfg = raufoss|x86
+		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.raufoss|x86.Build.0 = raufoss|x86
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EE6566A1-33E0-463B-B1CA-BA88102E035E}.Release|x86.ActiveCfg = Release|Any CPU
@@ -32,6 +38,10 @@ Global
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2F5099E-E791-44FE-930C-8DA386F33913}.raufoss|Any CPU.ActiveCfg = raufoss|Any CPU
+		{A2F5099E-E791-44FE-930C-8DA386F33913}.raufoss|Any CPU.Build.0 = raufoss|Any CPU
+		{A2F5099E-E791-44FE-930C-8DA386F33913}.raufoss|x86.ActiveCfg = raufoss|Any CPU
+		{A2F5099E-E791-44FE-930C-8DA386F33913}.raufoss|x86.Build.0 = raufoss|Any CPU
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A2F5099E-E791-44FE-930C-8DA386F33913}.Release|x86.ActiveCfg = Release|Any CPU
